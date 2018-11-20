@@ -1,0 +1,449 @@
+Problem:    p2_2
+Rows:       168
+Columns:    90 (30 integer, 30 binary)
+Non-zeros:  804
+Status:     INTEGER OPTIMAL
+Objective:  profit = 104346.2963 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 profit                 179346                             
+     2 raffinageHuileVegTotalMax[1]
+                                 200                         200 
+     3 raffinageHuileVegTotalMax[2]
+                                 200                         200 
+     4 raffinageHuileVegTotalMax[3]
+                                 200                         200 
+     5 raffinageHuileVegTotalMax[4]
+                                 200                         200 
+     6 raffinageHuileVegTotalMax[5]
+                                 200                         200 
+     7 raffinageHuileVegTotalMax[6]
+                                 200                         200 
+     8 raffinageHuileHydTotalMax[1]
+                                 250                         250 
+     9 raffinageHuileHydTotalMax[2]
+                                 250                         250 
+    10 raffinageHuileHydTotalMax[3]
+                                 250                         250 
+    11 raffinageHuileHydTotalMax[4]
+                                 250                         250 
+    12 raffinageHuileHydTotalMax[5]
+                                 250                         250 
+    13 raffinageHuileHydTotalMax[6]
+                                 250                         250 
+    14 raffinageHuileMin[V1,1]
+                             114.074            -0               
+    15 raffinageHuileMin[V1,2]
+                             99.2593            -0               
+    16 raffinageHuileMin[V1,3]
+                             93.3333            -0               
+    17 raffinageHuileMin[V1,4]
+                             93.3333            -0               
+    18 raffinageHuileMin[V1,5]
+                                   0            -0               
+    19 raffinageHuileMin[V1,6]
+                              149.63            -0               
+    20 raffinageHuileMin[V2,1]
+                             45.9259            -0               
+    21 raffinageHuileMin[V2,2]
+                             60.7407            -0               
+    22 raffinageHuileMin[V2,3]
+                             66.6667            -0               
+    23 raffinageHuileMin[V2,4]
+                             66.6667            -0               
+    24 raffinageHuileMin[V2,5]
+                                 160            -0               
+    25 raffinageHuileMin[V2,6]
+                             10.3704            -0               
+    26 raffinageHuileMin[H1,1]
+                                   0            -0               
+    27 raffinageHuileMin[H1,2]
+                                   0            -0               
+    28 raffinageHuileMin[H1,3]
+                                   0            -0               
+    29 raffinageHuileMin[H1,4]
+                                   0            -0               
+    30 raffinageHuileMin[H1,5]
+                                   0            -0               
+    31 raffinageHuileMin[H1,6]
+                                   0            -0               
+    32 raffinageHuileMin[H2,1]
+                                 190            -0               
+    33 raffinageHuileMin[H2,2]
+                                  20            -0               
+    34 raffinageHuileMin[H2,3]
+                                   0            -0               
+    35 raffinageHuileMin[H2,4]
+                                   0            -0               
+    36 raffinageHuileMin[H2,5]
+                                 190            -0               
+    37 raffinageHuileMin[H2,6]
+                                 190            -0               
+    38 raffinageHuileMin[H3,1]
+                                   0            -0               
+    39 raffinageHuileMin[H3,2]
+                                 170            -0               
+    40 raffinageHuileMin[H3,3]
+                                 190            -0               
+    41 raffinageHuileMin[H3,4]
+                                 190            -0               
+    42 raffinageHuileMin[H3,5]
+                                   0            -0               
+    43 raffinageHuileMin[H3,6]
+                                   0            -0               
+    44 raffinageHuileVegMax[V1,1]
+                            -65.9259                          -0 
+    45 raffinageHuileVegMax[V1,2]
+                            -80.7407                          -0 
+    46 raffinageHuileVegMax[V1,3]
+                            -86.6667                          -0 
+    47 raffinageHuileVegMax[V1,4]
+                            -86.6667                          -0 
+    48 raffinageHuileVegMax[V1,5]
+                                -180                          -0 
+    49 raffinageHuileVegMax[V1,6]
+                            -30.3704                          -0 
+    50 raffinageHuileVegMax[V2,1]
+                            -134.074                          -0 
+    51 raffinageHuileVegMax[V2,2]
+                            -119.259                          -0 
+    52 raffinageHuileVegMax[V2,3]
+                            -113.333                          -0 
+    53 raffinageHuileVegMax[V2,4]
+                            -113.333                          -0 
+    54 raffinageHuileVegMax[V2,5]
+                                 -20                          -0 
+    55 raffinageHuileVegMax[V2,6]
+                             -169.63                          -0 
+    56 raffinageHuileHydMax[H1,1]
+                                -230                          -0 
+    57 raffinageHuileHydMax[H1,2]
+                                -230                          -0 
+    58 raffinageHuileHydMax[H1,3]
+                                -230                          -0 
+    59 raffinageHuileHydMax[H1,4]
+                                -230                          -0 
+    60 raffinageHuileHydMax[H1,5]
+                                -230                          -0 
+    61 raffinageHuileHydMax[H1,6]
+                                -230                          -0 
+    62 raffinageHuileHydMax[H2,1]
+                                 -40                          -0 
+    63 raffinageHuileHydMax[H2,2]
+                                -210                          -0 
+    64 raffinageHuileHydMax[H2,3]
+                                -230                          -0 
+    65 raffinageHuileHydMax[H2,4]
+                                -230                          -0 
+    66 raffinageHuileHydMax[H2,5]
+                                 -40                          -0 
+    67 raffinageHuileHydMax[H2,6]
+                                 -40                          -0 
+    68 raffinageHuileHydMax[H3,1]
+                                -230                          -0 
+    69 raffinageHuileHydMax[H3,2]
+                                 -60                          -0 
+    70 raffinageHuileHydMax[H3,3]
+                                 -40                          -0 
+    71 raffinageHuileHydMax[H3,4]
+                                 -40                          -0 
+    72 raffinageHuileHydMax[H3,5]
+                                -230                          -0 
+    73 raffinageHuileHydMax[H3,6]
+                                -230                          -0 
+    74 maximumComposant[1]
+                                   5                           5 
+    75 maximumComposant[2]
+                                   5                           5 
+    76 maximumComposant[3]
+                                   5                           5 
+    77 maximumComposant[4]
+                                   5                           5 
+    78 maximumComposant[5]
+                                   5                           5 
+    79 maximumComposant[6]
+                                   5                           5 
+    80 neutralisationH3V1[1]
+                                   0            -0               
+    81 neutralisationH3V1[2]
+                                   0            -0               
+    82 neutralisationH3V1[3]
+                                   0            -0               
+    83 neutralisationH3V1[4]
+                                   0            -0               
+    84 neutralisationH3V1[5]
+                                   0            -0               
+    85 neutralisationH3V1[6]
+                                   0            -0               
+    86 neutralisationH3V2[1]
+                                   0            -0               
+    87 neutralisationH3V2[2]
+                                   0            -0               
+    88 neutralisationH3V2[3]
+                                   0            -0               
+    89 neutralisationH3V2[4]
+                                   0            -0               
+    90 neutralisationH3V2[5]
+                                   0            -0               
+    91 neutralisationH3V2[6]
+                                   0            -0               
+    92 viscociteCibleMaximum[1]
+                                 -96                          -0 
+    93 viscociteCibleMaximum[2]
+                                   0                          -0 
+    94 viscociteCibleMaximum[3]
+                                   0                          -0 
+    95 viscociteCibleMaximum[4]
+                                   0                          -0 
+    96 viscociteCibleMaximum[5]
+                                -404                          -0 
+    97 viscociteCibleMaximum[6]
+                                   0                          -0 
+    98 viscociteCibleMinimum[1]
+                                1254            -0               
+    99 viscociteCibleMinimum[2]
+                                1350            -0               
+   100 viscociteCibleMinimum[3]
+                                1350            -0               
+   101 viscociteCibleMinimum[4]
+                                1350            -0               
+   102 viscociteCibleMinimum[5]
+                                 946            -0               
+   103 viscociteCibleMinimum[6]
+                                1350            -0               
+   104 storageMax[V1,1]
+                            -134.074                         500 
+   105 storageMax[V1,2]
+                            -253.333                         500 
+   106 storageMax[V1,3]
+                            -366.667                         500 
+   107 storageMax[V1,4]
+                                -480                         500 
+   108 storageMax[V1,5]
+                                -500                         500 
+   109 storageMax[V1,6]
+                                   0                         500 
+   110 storageMax[V2,1]
+                            -65.9259                         500 
+   111 storageMax[V2,2]
+                            -146.667                         500 
+   112 storageMax[V2,3]
+                            -233.333                         500 
+   113 storageMax[V2,4]
+                                -320                         500 
+   114 storageMax[V2,5]
+                                -500                         500 
+   115 storageMax[V2,6]
+                                   0                         500 
+   116 storageMax[H1,1]
+                                 -20                         500 
+   117 storageMax[H1,2]
+                                  80                         500 
+   118 storageMax[H1,3]
+                                  60                         500 
+   119 storageMax[H1,4]
+                                  40                         500 
+   120 storageMax[H1,5]
+                                  20                         500 
+   121 storageMax[H1,6]
+                                   0                         500 
+   122 storageMax[H2,1]
+                                -210                         500 
+   123 storageMax[H2,2]
+                                -250                         500 
+   124 storageMax[H2,3]
+                                -270                         500 
+   125 storageMax[H2,4]
+                                -290                         500 
+   126 storageMax[H2,5]
+                                -500                         500 
+   127 storageMax[H2,6]
+                                   0                         500 
+   128 storageMax[H3,1]
+                                 -20                         500 
+   129 storageMax[H3,2]
+                                -210                         500 
+   130 storageMax[H3,3]
+                                 250                         500 
+   131 storageMax[H3,4]
+                                  40                         500 
+   132 storageMax[H3,5]
+                                  20                         500 
+   133 storageMax[H3,6]
+                                   0                         500 
+   134 storageMin[V1,1]
+                            -134.074          -500               
+   135 storageMin[V1,2]
+                            -253.333          -500               
+   136 storageMin[V1,3]
+                            -366.667          -500               
+   137 storageMin[V1,4]
+                                -480          -500               
+   138 storageMin[V1,5]
+                                -500          -500               
+   139 storageMin[V1,6]
+                                   0          -500               
+   140 storageMin[V2,1]
+                            -65.9259          -500               
+   141 storageMin[V2,2]
+                            -146.667          -500               
+   142 storageMin[V2,3]
+                            -233.333          -500               
+   143 storageMin[V2,4]
+                                -320          -500               
+   144 storageMin[V2,5]
+                                -500          -500               
+   145 storageMin[V2,6]
+                                   0          -500               
+   146 storageMin[H1,1]
+                                 -20          -500               
+   147 storageMin[H1,2]
+                                  80          -500               
+   148 storageMin[H1,3]
+                                  60          -500               
+   149 storageMin[H1,4]
+                                  40          -500               
+   150 storageMin[H1,5]
+                                  20          -500               
+   151 storageMin[H1,6]
+                                   0          -500               
+   152 storageMin[H2,1]
+                                -210          -500               
+   153 storageMin[H2,2]
+                                -250          -500               
+   154 storageMin[H2,3]
+                                -270          -500               
+   155 storageMin[H2,4]
+                                -290          -500               
+   156 storageMin[H2,5]
+                                -500          -500               
+   157 storageMin[H2,6]
+                                   0          -500               
+   158 storageMin[H3,1]
+                                 -20          -500               
+   159 storageMin[H3,2]
+                                -210          -500               
+   160 storageMin[H3,3]
+                                 250          -500               
+   161 storageMin[H3,4]
+                                  40          -500               
+   162 storageMin[H3,5]
+                                  20          -500               
+   163 storageMin[H3,6]
+                                   0          -500               
+   164 storageFinal[V1]
+                                   0            -0             = 
+   165 storageFinal[V2]
+                                   0            -0             = 
+   166 storageFinal[H1]
+                                   0            -0             = 
+   167 storageFinal[H2]
+                                   0            -0             = 
+   168 storageFinal[H3]
+                                   0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 achat[V1,1]                 0             0               
+     2 achat[V1,2]                 0             0               
+     3 achat[V1,3]                 0             0               
+     4 achat[V1,4]                 0             0               
+     5 achat[V1,5]                 0             0               
+     6 achat[V1,6]            669.63             0               
+     7 achat[V2,1]                 0             0               
+     8 achat[V2,2]                 0             0               
+     9 achat[V2,3]                 0             0               
+    10 achat[V2,4]                 0             0               
+    11 achat[V2,5]                 0             0               
+    12 achat[V2,6]            530.37             0               
+    13 achat[H1,1]                 0             0               
+    14 achat[H1,2]               120             0               
+    15 achat[H1,3]                 0             0               
+    16 achat[H1,4]                 0             0               
+    17 achat[H1,5]                 0             0               
+    18 achat[H1,6]                 0             0               
+    19 achat[H2,1]                 0             0               
+    20 achat[H2,2]                 0             0               
+    21 achat[H2,3]                 0             0               
+    22 achat[H2,4]                 0             0               
+    23 achat[H2,5]                 0             0               
+    24 achat[H2,6]               710             0               
+    25 achat[H3,1]                 0             0               
+    26 achat[H3,2]                 0             0               
+    27 achat[H3,3]               670             0               
+    28 achat[H3,4]                 0             0               
+    29 achat[H3,5]                 0             0               
+    30 achat[H3,6]                 0             0               
+    31 raff[V1,1]            134.074            20               
+    32 raff[V1,2]            119.259            20               
+    33 raff[V1,3]            113.333            20               
+    34 raff[V1,4]            113.333            20               
+    35 raff[V1,5]                 20            20               
+    36 raff[V1,6]             169.63            20               
+    37 raff[V2,1]            65.9259            20               
+    38 raff[V2,2]            80.7407            20               
+    39 raff[V2,3]            86.6667            20               
+    40 raff[V2,4]            86.6667            20               
+    41 raff[V2,5]                180            20               
+    42 raff[V2,6]            30.3704            20               
+    43 raff[H1,1]                 20            20               
+    44 raff[H1,2]                 20            20               
+    45 raff[H1,3]                 20            20               
+    46 raff[H1,4]                 20            20               
+    47 raff[H1,5]                 20            20               
+    48 raff[H1,6]                 20            20               
+    49 raff[H2,1]                210            20               
+    50 raff[H2,2]                 40            20               
+    51 raff[H2,3]                 20            20               
+    52 raff[H2,4]                 20            20               
+    53 raff[H2,5]                210            20               
+    54 raff[H2,6]                210            20               
+    55 raff[H3,1]                 20            20               
+    56 raff[H3,2]                190            20               
+    57 raff[H3,3]                210            20               
+    58 raff[H3,4]                210            20               
+    59 raff[H3,5]                 20            20               
+    60 raff[H3,6]                 20            20               
+    61 usage[V1,1]  *              1             0             1 
+    62 usage[V1,2]  *              1             0             1 
+    63 usage[V1,3]  *              1             0             1 
+    64 usage[V1,4]  *              1             0             1 
+    65 usage[V1,5]  *              1             0             1 
+    66 usage[V1,6]  *              1             0             1 
+    67 usage[V2,1]  *              1             0             1 
+    68 usage[V2,2]  *              1             0             1 
+    69 usage[V2,3]  *              1             0             1 
+    70 usage[V2,4]  *              1             0             1 
+    71 usage[V2,5]  *              1             0             1 
+    72 usage[V2,6]  *              1             0             1 
+    73 usage[H1,1]  *              1             0             1 
+    74 usage[H1,2]  *              1             0             1 
+    75 usage[H1,3]  *              1             0             1 
+    76 usage[H1,4]  *              1             0             1 
+    77 usage[H1,5]  *              1             0             1 
+    78 usage[H1,6]  *              1             0             1 
+    79 usage[H2,1]  *              1             0             1 
+    80 usage[H2,2]  *              1             0             1 
+    81 usage[H2,3]  *              1             0             1 
+    82 usage[H2,4]  *              1             0             1 
+    83 usage[H2,5]  *              1             0             1 
+    84 usage[H2,6]  *              1             0             1 
+    85 usage[H3,1]  *              1             0             1 
+    86 usage[H3,2]  *              1             0             1 
+    87 usage[H3,3]  *              1             0             1 
+    88 usage[H3,4]  *              1             0             1 
+    89 usage[H3,5]  *              1             0             1 
+    90 usage[H3,6]  *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.71e-13 on row 94
+        max.rel.err = 1.71e-13 on row 94
+        High quality
+
+End of output
