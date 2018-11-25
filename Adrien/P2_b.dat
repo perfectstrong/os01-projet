@@ -1,0 +1,40 @@
+data;
+## Nombres et ensembles ##
+set HV := V1 V2; #huiles végétales
+set HH := H1 H2 H3;  #huiles hydrogénées
+set HA := V1 V2; #huiles acides
+set HB := H3; #huile basique (ou plusieurs) de compensation pour les huiles acides
+param m :=6; #nombre de mois
+param M := 1000000; #grand nombre
+
+
+## Prix et coûts ##
+#coûts/prix d'achats en euros par tonne d'huiles brutes pour chaque mois 
+#(réels puis estimés)
+param c_a : 1 2 3 4 5 6 := 
+V1 110 130 110 120 100 90
+V2 120 130 140 110 120 100
+H1 130 110 130 120 150 140
+H2 110 90 100 120 110 80
+H3 115 115 95 125 105 135
+; 
+param c_v := 150; #coût/prix de vente en euros par tonne
+param c_s := 5; #coût de stockage en euros par tonne par mois
+
+## Raffinage ##
+#quantités maximale de raffinage
+param q_r_vmax := 200; #pour les huiles végétales
+param q_r_hmax := 250; #pour les huiles hydrogénées
+param n_r_max := 3; #nombre de composants maximum pour le raffinage
+#quantité minimale par huile (lorsque choisie)
+param q_r_min := 20;
+
+## Stocks ##
+param s_init := V1 500 V2 500 H1 500 H2 500 H3 500; #stocks initiaux de chaque huile
+param s_fin := V1 500 V2 500 H1 500 H2 500 H3 500; #stocks finaux de chaque huile
+param s_max := V1 1000 V2 1000 H1 1000 H2 1000 H3 1000; #stocks maximaux de chaque huile
+
+## Viscosités ##
+param v_min := 3; #viscosité minimale du produit final
+param v_max := 6; #viscosité maximale du produit final
+param v := V1 8.8 V2 6.1 H1 2.0 H2 4.2 H3 5.0; #viscosité de chaque huile brute
