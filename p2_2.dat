@@ -1,6 +1,9 @@
 # FABRICATION D'HUILES
 set huilesVeg := V1 V2;
 set huilesHyd := H1 H2 H3;
+# set dependances := (V1, H3), (V2, H3);
+set huilesA := V1 V2;
+set huilesB := H3;
 param N := 6;
 param coutEstime (tr) : 
 	V1	V2	H1	H2	H3 :=
@@ -22,4 +25,4 @@ param viscoMin := 3; # pour prod
 param viscoMax := 6; # pour prod
 param visco := V1 8.8 V2 6.1 H1 2.0 H2 4.2 H3 5.0;
 param minRaff := 20; # tonnes
-param maxCompo := 5;
+param maxCompo := 3;
