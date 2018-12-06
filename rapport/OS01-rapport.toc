@@ -12,3 +12,5 @@
 \contentsline {section}{\numberline {2}Plannification de production d'huiles}{8}
 \contentsline {subsection}{\numberline {2.1}Mod\IeC {\`e}le 1}{8}
 \contentsline {subsection}{\numberline {2.2}Mod\IeC {\`e}le 2}{9}
+\contentsline {section}{\numberline {3}Annexe}{10}
+\contentsline {subsection}{\numberline {3.1}Visualisation de l'arbre}{10}
