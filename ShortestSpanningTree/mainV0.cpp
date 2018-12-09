@@ -1,9 +1,11 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <chrono>
 #include "Network.h"
 
 using namespace std;
+using namespace std::chrono;
 
 // Naive algorithm O(n^3)
 void growNetwork() {
@@ -29,14 +31,25 @@ void growNetwork() {
     }
 }
 
-int main() {
-    string filename = "";
-    cout << "input = ";
-    getline(cin, filename);
+high_resolution_clock::time_point now() {
+    return high_resolution_clock::now();
+}
+
+//arg1 : input file, arg2 : output file
+int main(int argc,char* argv[]) {
+    high_resolution_clock::time_point start, finish;
+    duration<double, std::milli> timespan;
+    
+    string filename  =  argv[1]; //TODO
     addNode(0);
     readInputPoints(filename);
     calculateDist2();
+    
+    start = now();
     growNetwork();
-    writeOut("./output/outputV0_" + filename);
+    finish = now();
+    timespan = finish - start;
+    cout << "Time = " << timespan.count() << " ms" << endl;
+    writeOut(argv[2]);
     return 0;
 }

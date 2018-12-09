@@ -20,9 +20,10 @@ struct Network {
     int m = 0; //number of connections
     int node[NMAX] = {-1}; //points
     int edge[NMAX - 1][2]; //connections (max being number of nodes -1)
+    double totalLength = 0.0;
 };
 
-//Local variables
+//Local variables (for all)
 static Network network;
 static int N; // total number of points on map
 static double maxX;
@@ -31,12 +32,19 @@ static Point root = { 0, 0 };
 static Point inputPoints[NMAX + 1];
 static bool inTree[NMAX + 1] = { false };
 static double dist2[NMAX + 1][NMAX + 1] = { {0} };
-static double totalLength = 0;
+
+//for V1
+static int orderedPoints[NMAX + 1]; // 0 to network.n-1 are points in tree, others are outside
+
+//for V2
+static int nearestNetworkNeighbor[NMAX + 1] = { 0 };
+static int newestNode = -1;
 
 //add a node to the network
 void addNode(int p) { 
     network.node[network.n] = p;
     inTree[p] = true;
+    newestNode = p;
     network.n++;
 }
 
@@ -45,7 +53,7 @@ void addEdge(int p, int q) {
     network.edge[network.m][0] = p;
     network.edge[network.m][1] = q;
     network.m++;
-    totalLength += sqrt(dist2[p][q]);
+    network.totalLength += sqrt(dist2[p][q]);
 }
 
 //read input points (to construct the nodes for the network) from 
@@ -73,8 +81,8 @@ void readInputPoints(string filepath) {
 void writeOut(string filepath) {
     ofstream f;
     f.open(filepath);
-    //~ if (f.is_open()) {
-        f << totalLength << endl;
+    if (f.is_open()) {
+        f << network.totalLength << endl;
         for (int i = 0; i < network.m; ++i) {
             f << inputPoints[network.edge[i][0]].x << " "
                 << inputPoints[network.edge[i][0]].y << " "
@@ -83,11 +91,12 @@ void writeOut(string filepath) {
                 << endl;
         }
         f.close();
-    //~ } else
-        //~ throw invalid_argument("Error on writing");
+    } else {
+        throw invalid_argument("Error on writing");
+    }
 }
 
-//Caculate the distances betwenn the nodes
+//Caculate the distances between the nodes
 void calculateDist2() {
     for (int i = 0; i <= N; ++i) {
         for (int j = i + 1; j <= N; ++j) {
