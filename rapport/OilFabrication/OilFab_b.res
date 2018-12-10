@@ -1,0 +1,79 @@
+Le profit maximal apres 6 mois: 100279 (euros)
+Au mois 1 :
+  Pour l'huile V1 :
+    Achet : 0 tonne(s)
+    Raffinage : 85 tonne(s)
+    Stockage : 415 tonne(s)
+  Pour l'huile V2 :
+    Achet : 0 tonne(s)
+    Raffinage : 115 tonne(s)
+    Stockage : 385 tonne(s)
+  Pour l'huile H3 :
+    Achet : 0 tonne(s)
+    Raffinage : 250 tonne(s)
+    Stockage : 250 tonne(s)
+Au mois 2 :
+  Pour l'huile V2 :
+    Achet : 0 tonne(s)
+    Raffinage : 200 tonne(s)
+    Stockage : 185 tonne(s)
+  Pour l'huile H2 :
+    Achet : 0 tonne(s)
+    Raffinage : 40 tonne(s)
+    Stockage : 460 tonne(s)
+  Pour l'huile H3 :
+    Achet : 0 tonne(s)
+    Raffinage : 210 tonne(s)
+    Stockage : 40 tonne(s)
+Au mois 3 :
+  Pour l'huile V1 :
+    Achet : 0 tonne(s)
+    Raffinage : 85 tonne(s)
+    Stockage : 330 tonne(s)
+  Pour l'huile V2 :
+    Achet : 0 tonne(s)
+    Raffinage : 115 tonne(s)
+    Stockage : 70 tonne(s)
+  Pour l'huile H3 :
+    Achet : 230 tonne(s)
+    Raffinage : 250 tonne(s)
+    Stockage : 20 tonne(s)
+Au mois 4 :
+  Pour l'huile V1 :
+    Achet : 0 tonne(s)
+    Raffinage : 155 tonne(s)
+    Stockage : 175 tonne(s)
+  Pour l'huile H2 :
+    Achet : 0 tonne(s)
+    Raffinage : 230 tonne(s)
+    Stockage : 230 tonne(s)
+  Pour l'huile H3 :
+    Achet : 0 tonne(s)
+    Raffinage : 20 tonne(s)
+    Stockage : 0 tonne(s)
+Au mois 5 :
+  Pour l'huile V1 :
+    Achet : 0 tonne(s)
+    Raffinage : 155 tonne(s)
+    Stockage : 20 tonne(s)
+  Pour l'huile H2 :
+    Achet : 0 tonne(s)
+    Raffinage : 230 tonne(s)
+    Stockage : 0 tonne(s)
+  Pour l'huile H3 :
+    Achet : 540 tonne(s)
+    Raffinage : 20 tonne(s)
+    Stockage : 520 tonne(s)
+Au mois 6 :
+  Pour l'huile V2 :
+    Achet : 630 tonne(s)
+    Raffinage : 200 tonne(s)
+    Stockage : 500 tonne(s)
+  Pour l'huile H2 :
+    Achet : 730 tonne(s)
+    Raffinage : 230 tonne(s)
+    Stockage : 500 tonne(s)
+  Pour l'huile H3 :
+    Achet : 0 tonne(s)
+    Raffinage : 20 tonne(s)
+    Stockage : 500 tonne(s)

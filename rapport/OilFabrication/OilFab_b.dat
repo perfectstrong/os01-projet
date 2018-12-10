@@ -1,0 +1,28 @@
+set V := V1 V2;
+set H := H1 H2 H3;
+set D :=
+(V1, H3),
+(V2, H3);
+param N := 6;
+param p (tr) : 
+	V1	V2	H1	H2	H3 :=
+1	110	120	130	110	115
+2	130	130	110	90	115
+3	110	140	130	100	95
+4	120	110	120	120	125
+5	100	120	150	110	105
+6	90	100	140	80	135;
+
+param p_f := 150; # euro / tonne
+param V_max := 200; # tonnes / mois
+param H_max := 250; # tonnes / mois
+param SM := V1 1000 V2 1000 H1 1000 H2 1000 H3 1000; # tonnes
+param c_s := 5; # euro / tonne / mois
+param SI := V1 500 V2 500 H1 500 H2 500 H3 500; # tonnes
+param SF := V1 500 V2 500 H1 500 H2 500 H3 500; # tonnes
+param v_min := 3; # pour prod
+param v_max := 6; # pour prod
+param v := V1 8.8 V2 6.1 H1 2.0 H2 4.2 H3 5.0;
+param n_max := 3; # nombre maximal de composants
+param u_min := 20; # quantite minimale si une huile est utilisee
+end;
